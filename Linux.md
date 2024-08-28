@@ -247,7 +247,7 @@ In db machine:
 	- $ mysql -u root -p
 	- $ mysql> RENAME USER 'sammy'@'localhost' TO 'sammy'@'<tomcat_machine_ip>';
 	- $ mysql> CREATE USER 'sammy'@'<tomcat_machine_ip>' IDENTIFIED BY 'password';
-	- $ mysql> GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'sammy'@'<tomcat_machine_ip>' WITH GRANT OPTION;
+	- $ mysql> GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'sammy'@'10.111.1.100' WITH GRANT OPTION;
 	- $ mysql> FLUSH PRIVILEGES;
 	- $ mysql> exit
 	- $ sudo ufw allow from <tomcat_machine_ip> to any port 3306
@@ -256,7 +256,10 @@ In tomcat machine:
  	- $ mysql -u user -h database_server_ip -p
 	- type pw
 	- login to sql server success
-Change port mysql
+Change port mysql: sudo nano /etc/mysql/mysql.cnf thêm 
+[mysqld]
+port xxxx
+
 ```
 
 # Display process and Kill process
