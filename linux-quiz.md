@@ -7,6 +7,11 @@
 - [ ] ls -l
 - [ ] blkid
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
+
 #### Q2. Linux file access control lists (ACLs) are \_.
 
 - [ ] discretionary access control system permissions layered over standard Linux permissions
@@ -14,12 +19,22 @@
 - [ ] a type of firewall for Linux
 - [ ] the same as standard Linux permissions
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
+
 #### Q3. When using iproute2, how do you show routing information for an IPv6 network?
 
 - [ ] route -ipv6
 - [ ] route
 - [ ] ip -6 route show
 - [ ] ip route show
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
 
 #### Q4. What does this command string do?
 
@@ -32,9 +47,14 @@ find / -size +10M -exec ls -l {} ;
 - [ ] It finds all files larger than 10 MB and long lists them using the ls command.
 - [ ] It uses the ls command to find all files in the filesystem matching the {} wildcard.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q5. What would this locate command show?
 
-```bash
+```
 locate --regexp '^/usr.*pixmaps.*jpg$'
 ```
 
@@ -43,12 +63,22 @@ locate --regexp '^/usr.*pixmaps.*jpg$'
 - [ ] all file paths that start with "/usr", include the word "pixmaps", and end with ".jpg"
 - [ ] all file paths that include "/usr/pixmaps" and end with ".jpg"
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q6. Which command allows you to do packet analysis from the command line?
 
 - [ ] wireshark
 - [ ] ethtool
 - [ ] netstat
 - [ ] tcpdump
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 #### Q7. Which command will tell you how long a system has been running?
 
@@ -57,12 +87,22 @@ locate --regexp '^/usr.*pixmaps.*jpg$'
 - [ ] runtime
 - [ ] access
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q8. How would you describe PCP (Performance Co-Pilot)?
 
 - [ ] It is an application testing suite used to profile programming code.
 - [ ] It is a local command used for monitoring local system resources in real time.
 - [ ] It is a set of tools, services, and libraries for gathering and analyzing performance measures.
 - [ ] It is a tool designed to change system configuration for purposes of optimization.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
 
 #### Q9. You want to resolve a long list of DNS names using dig. What should you do?
 
@@ -71,9 +111,14 @@ locate --regexp '^/usr.*pixmaps.*jpg$'
 - [ ] Write a shell script to send multiple dig queries to the DNS server.
 - [ ] Save the DNS names in an SQL database and process it with dig.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
+
 #### Q10. What would this command output?
 
-```bash
+```
 ps -e --format uid,pid,ppid,%cpu,cmd
 ```
 
@@ -82,12 +127,22 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 - [ ] the UUID, process ID, parent process ID, CPU usage, and command name of a process
 - [ ] all of these answers
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
+
 #### Q11. Which command in Bash executes the last line in the shell history that starts with ls?
 
 - [ ] !
 - [ ] !!
 - [ ] !\*
 - [ ] !ls
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 #### Q12. The ssh-copy-id command copies \_ to the remote host.
 
@@ -96,12 +151,22 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 - [ ] the ssh private key
 - [ ] a fingerprint file
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q13. What command is used to determine the amount of disk usage for a directory?
 
 - [ ] find
 - [ ] fdisk
 - [ ] du
 - [ ] df
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
 
 #### Q14. A backup drive was created using dd to make a bit-for-bit copy. When the drive is inserted into an iSCSI target before it is booted up, the data appears to be missing. What could have happened?
 
@@ -110,12 +175,22 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 - [ ] There is a conflict between the physical location of the backup drive and the original drive.
 - [ ] The backup process went wrong, and the old drive was duplicates over the original drive.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q15. What is the key difference between a redirect (>) and piping to the tee command?
 
 - [ ] The tee command sends output only to STDOUT and STDERR.
 - [ ] A redirect sends output to STDOUT and a file, whereas a tee sends output only to STDOUT.
 - [ ] Nothing, they are the same.
 - [ ] The tee command sends output to STDOUT and a file, whereas a redirect sends output only to a file.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 #### Q16. What does the /etc/nsswitch.conf file manage?
 
@@ -124,9 +199,14 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 - [ ] alternative DNS services
 - [ ] sources for name service information
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
+
 #### Q17. Assume the variable myNumber holds a string consisting of 10 digits. What will this command output?
 
-```bash
+```
 echo $myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 ```
 
@@ -135,11 +215,16 @@ echo $myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [ ] It will output the entire 10-digit number inside parentheses.
 - [ ] It will output the same 10-digit number, but the first 3 digits will be inside parentheses.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
+
 **Note:** check the question below for a variant of this sed expression.
 
 #### Q18. What would this sed command do?
 
-```bash
+```
 sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
 ```
 
@@ -147,6 +232,11 @@ sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
 - [ ] It would replace all letters in the textfile.txt file with ampersand (&).
 - [ ] It would replace the first four letters with an ampersand (&).
 - [ ] It would place parentheses around the first four letters of each line of textfile.txt.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 **Note:** check the question above for a variant of this sed expression.
 
@@ -159,6 +249,11 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [ ] -d
 - [ ] --downloadonly
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
+
 #### Q20. What character class is equal to this set?
 
 `[0-9]`
@@ -168,12 +263,22 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [ ] `[[:alpha:]]`
 - [ ] `[[:num:]]`
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q21. When archiving files, which command will preserve all file attributes including ACLs and SELinux security context?
 
 - [ ] zip
 - [ ] tar
 - [ ] archive
 - [ ] gzip
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
 
 #### Q22. In a systemd-based OS, you can change the system hostname by editing /etc/hostname manually and then doing what?
 
@@ -182,12 +287,22 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [ ] Nothing, the system notices automatically.
 - [ ] Notify systemd to update it by restarting the systemd-hostnamed service.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q23. What command would you use to resize an LVM volume group to include an additional physical volume?
 
 - [ ] vgadd
 - [ ] vgresize
 - [ ] vgappend
 - [ ] vgextend
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 #### Q24. When would this system cron job run its task?
 
@@ -198,12 +313,22 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [ ] every day at 1:00 AM
 - [ ] only on Mondays
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q25. ifconfig has been deprecated. What command is now recommended for changing IP addresses in the live config?
 
 - [ ] netconf
 - [ ] ipconfig
 - [ ] ipman
 - [ ] ip
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 #### Q26. You are managing an Apache web server on a system using SELinux. By default it cannot read personal webpages in users' home directories. What SELinux boolean would you set to allow this?
 
@@ -212,12 +337,22 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [ ] httpd_enable_homedirs
 - [ ] httpd_enable_userhome_dirs
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q27. Why doesn't passwd -l keep a user from logging in via other methods?
 
 - [ ] The passwd command is not used for locking passwords.
 - [ ] There is no password -l option.
 - [ ] It locks only the password, not the account, so users can still authenticate with keys or other methods.
 - [ ] It does lock the account, keeping users from logging in even if they are using other authentication methods.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
 
 #### Q28. In the Bash shell, what is the difference between piping into | and piping into |&?
 
@@ -226,12 +361,22 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [ ] Piping into | pipes both stdout and stderr. Piping into |& pipes only stdout.
 - [ ] Piping into | pipes stdout. Piping into |& pipes all open file descriptors.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q29. Why is the passwd command able to modify the /etc/passwd file?
 
 - [ ] The kernel identifies it as one of the names of extended commands.
 - [ ] It has the same name as the file it modifies.
 - [ ] It has the SUID permission mode and is owned by root.
 - [ ] It is a system administration command.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
 
 #### Q30. When a user deletes a file using the rm command, Linux will \_.
 
@@ -240,12 +385,22 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [ ] ask for confirmation if configured to do so
 - [ ] never ask for confirmation
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q31. What is a major advantage of using Logical Volume Management (LVM)?
 
 - [ ] Access to a drive is faster than with standard partitions.
 - [ ] Volumes can be resized smaller without unmounting them.
 - [ ] Repairing filesystem errors is easier than with standard partitions.
 - [ ] Volumes can be resized even if the free space is not contiguous.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 #### Q32. What is one major difference between brace expansion and globs?
 
@@ -254,12 +409,22 @@ Side note: this sed expression may fail with "sed: -e expression #1, char 15: In
 - [ ] Brace expansion creates a list; globs match the list of pathnames.
 - [ ] Globs get processes first and brace expansion later.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q33. To remove all ACLs from a directory, use setfacl with which options?
 
 - [ ] -d
 - [ ] -k
 - [ ] -b
 - [ ] -x
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
 
 #### Q34. Which choice will _not_ print "Hello World" in the terminal?
 
@@ -291,12 +456,22 @@ myVar = 5
 [[ $myVar -gt 10 ]] || echo " Hello World"
 ```
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q35. What is not inherited by child process?
 
 - [ ] shell aliases
 - [ ] userid
 - [ ] environmental variables
 - [ ] scheduling priority
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
 
 #### Q36. What NFS option allows the root user to access NFS shares as the root user?
 
@@ -305,9 +480,14 @@ myVar = 5
 - [ ] allow_root_access
 - [ ] all_squash
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q37. You send an email to a remote client using the following syntax. What will be in the body of the email?
 
-```bash
+```
 date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 ```
 
@@ -316,12 +496,22 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] The email subject shows "This is a remote test" but the body of the email will be empty.
 - [ ] the current date and time
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
+
 #### Q38. What is the /etc/hosts file used for?
 
 - [ ] resolving the local name
 - [ ] blocking sites using iptables
 - [ ] setting the hostname
 - [ ] configuring DNS name servers
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
 
 #### Q39. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?
 
@@ -330,12 +520,22 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] Occurrence quantifiers are not supported in Bash's version of extended globs, so this is not possible.
 - [ ] {3}(pattern})
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q40. When configuring a Samba share, how would the engineering group be specified in the smb.conf?
 
 - [ ] Samba uses Linux operating system groups from the /etc/group file; just specify the group name.
 - [ ] It would be preceded by a percent sign (%), such as %engineers.
 - [ ] Use the group name by itself; Samba checks for its existence.
 - [ ] It would be preceded by an @ symbol, such as @engineering.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 #### Q41. To configure the Kerberos client, which command should you use to import the keytab file?
 
@@ -344,12 +544,22 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] pam_krb5
 - [ ] kdb5_util
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q42. To search from the current cursor position up to the beginning of the file using VIM, type \_ and then the search criteria.
 
 - [ ] `?`
 - [ ] `\`
 - [ ] `/`
 - [ ] `/search`
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
 
 #### Q43. What is the job of the NetworkManager daemon?
 
@@ -358,12 +568,22 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] It attempts to keep an active network connection available at all times.
 - [ ] It is a command-line tool that manages network connections.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
+
 #### Q44. Why might would you use the usermod command?
 
 - [ ] to log out a user
 - [ ] to lock a user's account
 - [ ] to change global user account settings
 - [ ] to set a user's password
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
 
 #### Q45. Extending an LVM volume group does what to the formatted filesystem?
 
@@ -372,12 +592,22 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] It does nothing.
 - [ ] It remounts the filesystem with the new size.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q46. Which kernel module do you need to load to use interface bonding?
 
 - [ ] bonding.
 - [ ] team.
 - [ ] netbond.
 - [ ] bond.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
 
 #### Q47. What does this command string do?
 
@@ -390,12 +620,22 @@ find / -size -10K -exec ls -l {} \;
 - [ ] It finds all files in the / directory of size 10k and long lists them.
 - [ ] It finds all files in the file system smaller than 10k and long lists them using the ls command.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
+
 #### Q48. To change the priority of multiple swap partitions, which file would you edit?
 
 - [ ] /proc/swapiness
 - [ ] /etc/fstab
 - [ ] /etc/mounts
 - [ ] /etc/swaps
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
 
 #### Q49. What would you type to list all systemd service unit files, whether they are enabled or not?
 
@@ -404,12 +644,22 @@ find / -size -10K -exec ls -l {} \;
 - [ ] systemctl list-unit-files -at service
 - [ ] systemctl list-unit-files -t service
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+</details>
+
 #### Q50. You can set Linux group passwords using which command?
 
 - [ ] gpasswd
 - [ ] passwd
 - [ ] editsam
 - [ ] grouppass
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
 
 #### Q51. With most GNU commands, if an option is a word, what will it be preceded by?
 
@@ -418,12 +668,22 @@ find / -size -10K -exec ls -l {} \;
 - [ ] one dash
 - [ ] nothing
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
+
 #### Q52. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?
 
 - [ ] The script will remain running in the background even if you reboot the system.
 - [ ] The script will run in your terminal and you will not be able to do anything until it completes.
 - [ ] The script will run in the background until you end the session.
 - [ ] The script will run in the background and will continue running even if you end the session.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 [Reference](https://en.wikipedia.org/wiki/Nohup)
 
@@ -436,6 +696,11 @@ find / -size -10K -exec ls -l {} \;
 - [ ] enter the sudo user's password
 - [ ] change to the root group
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 [Reference](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
 
 #### Q54. When would this system cron job run its task?
@@ -447,12 +712,22 @@ find / -size -10K -exec ls -l {} \;
 - [ ] every 22 minutes every day except weekends
 - [ ] from 1:00 AM to 5:00 AM on the 22nd of every month
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q55. How does TCP Wrappers differ from a firewall?
 
 - [ ] Firewalls are only service specific, whereas TCP Wrappers can block all traffic.
 - [ ] TCP Wrappers works at the network layer, so it blocks traffic before the firewall even sees it.
 - [ ] Firewalls easily spawn commands to operate on connection data, whereas TCP Wrappers cannot.
 - [ ] TCP Wrappers works at the application layer, so it can make access decisions on encrypted data.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 **Note:** TCP Wrapper works on Application Layer but answer is not too much confirmed.
 
@@ -462,6 +737,11 @@ find / -size -10K -exec ls -l {} \;
 - [ ] They can traverse it.
 - [ ] They can read files in it.
 - [ ] They can delete files in it.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
 
 **Note:** This is correct because of the keyword "directory". More info [here](https://www.tutorialspoint.com/unix/unix-file-permission.htm).
 
@@ -474,9 +754,14 @@ find / -size -10K -exec ls -l {} \;
 - [ ] 0.6567708333333333
 - [ ] 4
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
+
 #### Q58. How can you improve this code snippet?
 
-```bash
+```
 if ls /etc/passwd &> /dev/null
 then
     echo "exists"
@@ -488,6 +773,11 @@ fi
 - [ ] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
 - [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
 
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: b
+</details>
+
 #### Q59. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
 
 - [ ] systemctl disable crond
@@ -495,8 +785,13 @@ fi
 - [ ] systemctl mask crond
 - [ ] systemctl stop crond
 
-**Note:** This is the correct answer because "mask" prohibits all kinds of activation of the unit, including manual activation.\
-[Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html): search "mask".
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: c
+
+  **Note:** This is the correct answer because "mask" prohibits all kinds of activation of the unit, including manual activation.\
+  [Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html): search "mask".
+</details>
 
 #### Q60. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
 
@@ -504,6 +799,11 @@ fi
 - [ ] The user may run out of device letters.
 - [ ] There are no issues with referring to partitions by their partition path.
 - [ ] It is more difficult identifying mounted devices by partition path.
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: a
+</details>
 
 [Reference](https://access.redhat.com/discussions/6004221)
 
@@ -513,6 +813,11 @@ fi
 - [ ] grep -B
 - [ ] grep -e
 - [ ] grep -G
+
+<details>
+  <summary>Bấm để xem đáp án đúng</summary>
+  Đáp án đúng là: d
+</details>
 
 **Explanation**: Man page of grep command.
 
